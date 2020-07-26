@@ -144,7 +144,7 @@ stages:
             inputs:
               azureSubscription: 'Resource Manager - Tailspin - Space Game'
               authenticationType: 'server'
-              serverName: 'tailspin-space-game-sql-dev-$(uniqueSuffix)'
+              serverName: 'tailspin-space-game-sql-dev-$(uniqueSuffix).database.windows.net'
               databaseName: 'tailspindatabase'
               sqlUsername: 'azuresql'
               sqlPassword: '$(adminPassword)'
